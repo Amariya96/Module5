@@ -15,7 +15,8 @@ namespace PWNUnit
         public async Task Setup()
         {
             Console.WriteLine("Opened Browser");
-            await Page.GotoAsync("http://eaapp.somee.com/");
+            await Page.GotoAsync("http://eaapp.somee.com/",
+                 new PageGotoOptions { Timeout = 5000, WaitUntil = WaitUntilState.DOMContentLoaded });
             Console.WriteLine("Page Loaded");
         }
 
@@ -26,7 +27,7 @@ namespace PWNUnit
             /* var lnkLogin = Page.Locator(selector: "text=Login");
              await lnkLogin.ClickAsync();*/
 
-            await Page.ClickAsync(selector: "text=Login");
+            await Page.ClickAsync(selector: "text=Login", new PageClickOptions { Timeout =1000 });
             await Console.Out.WriteLineAsync("Link Clicked");
 
             await Expect(Page).ToHaveURLAsync("http://eaapp.somee.com/Account/Login");
