@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppPrj", "ConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWNUnit", "PWNUnit\PWNUnit.csproj", "{4FF732D9-A351-4CDB-B17E-28C213A143C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment", "Assignment\Assignment.csproj", "{00BC9FE7-8445-40C6-B93F-819D5A59929B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment", "Assignment\Assignment.csproj", "{00BC9FE7-8445-40C6-B93F-819D5A59929B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWPOM", "PWPOM\PWPOM.csproj", "{7534018D-74D6-4429-AB42-B9A7BE6BC273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWPOM", "PWPOM\PWPOM.csproj", "{7534018D-74D6-4429-AB42-B9A7BE6BC273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWAPI", "PWAPI\PWAPI.csproj", "{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7534018D-74D6-4429-AB42-B9A7BE6BC273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7534018D-74D6-4429-AB42-B9A7BE6BC273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7534018D-74D6-4429-AB42-B9A7BE6BC273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
