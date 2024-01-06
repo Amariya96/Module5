@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment", "Assignment\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWPOM", "PWPOM\PWPOM.csproj", "{7534018D-74D6-4429-AB42-B9A7BE6BC273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWAPI", "PWAPI\PWAPI.csproj", "{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWAPI", "PWAPI\PWAPI.csproj", "{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudy", "CaseStudy\CaseStudy.csproj", "{DC622ABA-D340-483C-8029-4E512C17A273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AB95FD8-FEBC-4D9B-9070-C3C30F0A6D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC622ABA-D340-483C-8029-4E512C17A273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC622ABA-D340-483C-8029-4E512C17A273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC622ABA-D340-483C-8029-4E512C17A273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC622ABA-D340-483C-8029-4E512C17A273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
